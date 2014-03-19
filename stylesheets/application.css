@@ -1,0 +1,515 @@
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica"); }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+#wrapper.styleguide div.alpha-banner {
+  padding: 0.5em 0;
+  background-color: #d53880; }
+  #wrapper.styleguide div.alpha-banner p {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+    color: #0b0c0c;
+    font-family: "nta", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 300;
+    text-transform: none; }
+    @media (max-width: 640px) {
+      #wrapper.styleguide div.alpha-banner p {
+        font-size: 14px;
+        line-height: 1.14286; } }
+  #wrapper.styleguide div.alpha-banner a, #wrapper.styleguide div.alpha-banner a:link, #wrapper.styleguide div.alpha-banner a:visited, #wrapper.styleguide div.alpha-banner a:active {
+    color: #0b0c0c; }
+  #wrapper.styleguide div.alpha-banner a:hover {
+    color: #0b0c0c; }
+  #wrapper.styleguide div.alpha-banner b, #wrapper.styleguide div.alpha-banner strong {
+    font-weight: bold; }
+
+html {
+  background: white; }
+
+#global-breadcrumb {
+  display: none; }
+
+#wrapper.design-principles {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 400;
+  text-transform: none;
+  margin: 0 auto;
+  padding: 0 68px;
+  width: 824px;
+  max-width: 824px;
+  color: black;
+  background: transparent; }
+  @media (max-width: 640px) {
+    #wrapper.design-principles {
+      font-size: 16px;
+      line-height: 1.25; } }
+  @media (min-width: 1px) {
+    #wrapper.design-principles {
+      width: auto; } }
+  @media (max-width: 640px) {
+    #wrapper.design-principles {
+      padding: 0 10px; } }
+  #wrapper.design-principles div, #wrapper.design-principles span,
+  #wrapper.design-principles h1, #wrapper.design-principles h2, #wrapper.design-principles h3, #wrapper.design-principles h4, #wrapper.design-principles h5, #wrapper.design-principles h6, #wrapper.design-principles p, #wrapper.design-principles blockquote, #wrapper.design-principles pre,
+  #wrapper.design-principles a, #wrapper.design-principles abbr, #wrapper.design-principles acronym, #wrapper.design-principles address, #wrapper.design-principles big, #wrapper.design-principles cite, #wrapper.design-principles code,
+  #wrapper.design-principles del, #wrapper.design-principles dfn, #wrapper.design-principles em, #wrapper.design-principles img, #wrapper.design-principles ins, #wrapper.design-principles kbd, #wrapper.design-principles q, #wrapper.design-principles s, #wrapper.design-principles samp,
+  #wrapper.design-principles small, #wrapper.design-principles strike, #wrapper.design-principles strong, #wrapper.design-principles sub, #wrapper.design-principles sup, #wrapper.design-principles tt, #wrapper.design-principles var,
+  #wrapper.design-principles b, #wrapper.design-principles u, #wrapper.design-principles i, #wrapper.design-principles center,
+  #wrapper.design-principles dl, #wrapper.design-principles dt, #wrapper.design-principles dd, #wrapper.design-principles ol, #wrapper.design-principles ul, #wrapper.design-principles li,
+  #wrapper.design-principles fieldset, #wrapper.design-principles form, #wrapper.design-principles label, #wrapper.design-principles legend,
+  #wrapper.design-principles table, #wrapper.design-principles caption, #wrapper.design-principles tbody, #wrapper.design-principles tfoot, #wrapper.design-principles thead, #wrapper.design-principles tr, #wrapper.design-principles th, #wrapper.design-principles td,
+  #wrapper.design-principles article, #wrapper.design-principles aside, #wrapper.design-principles canvas, #wrapper.design-principles details, #wrapper.design-principles embed,
+  #wrapper.design-principles figure, #wrapper.design-principles figcaption, #wrapper.design-principles footer, #wrapper.design-principles header, #wrapper.design-principles hgroup,
+  #wrapper.design-principles menu, #wrapper.design-principles nav, #wrapper.design-principles output, #wrapper.design-principles ruby, #wrapper.design-principles section, #wrapper.design-principles summary,
+  #wrapper.design-principles time, #wrapper.design-principles mark {
+    background: transparent;
+    float: none;
+    margin-right: 0;
+    min-height: 0;
+    position: auto;
+    width: auto;
+    height: auto;
+    z-index: auto;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit; }
+  #wrapper.design-principles a {
+    text-decoration: underline; }
+    #wrapper.design-principles a:hover, #wrapper.design-principles a:focus {
+      color: #2b8cc4; }
+    #wrapper.design-principles a:active {
+      color: #df3034; }
+  @media (min-width: 640px) {
+    #wrapper.design-principles .beta-notice {
+      margin-left: -34px; } }
+  @media (min-width: 1020px) {
+    #wrapper.design-principles .beta-notice {
+      margin-left: -68px; } }
+  #wrapper.design-principles .beta-notice p {
+    margin: 0; }
+  #wrapper.design-principles .beta-notice span {
+    display: block;
+    padding: 8px 0 7px; }
+  #wrapper.design-principles .beta-notice a, #wrapper.design-principles .beta-notice .phase {
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    padding: 11px 15px 10px;
+    font-family: "nta", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    font-weight: 400;
+    text-transform: none;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    background: #df3034; }
+    @media (max-width: 640px) {
+      #wrapper.design-principles .beta-notice a, #wrapper.design-principles .beta-notice .phase {
+        font-size: 12px;
+        line-height: 1.25; } }
+  #wrapper.design-principles h1 {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-family: "nta", Arial, sans-serif;
+    font-size: 36px;
+    line-height: 1.11111;
+    font-weight: 400;
+    text-transform: none;
+    color: #6f777b; }
+    @media (max-width: 640px) {
+      #wrapper.design-principles h1 {
+        font-size: 24px;
+        line-height: 1.04167; } }
+    #wrapper.design-principles h1 strong {
+      position: relative;
+      display: block;
+      margin-top: 8px;
+      font-family: "nta", Arial, sans-serif;
+      font-size: 80px;
+      line-height: 1;
+      font-weight: 400;
+      text-transform: none;
+      font-weight: bold;
+      color: black; }
+      @media (max-width: 640px) {
+        #wrapper.design-principles h1 strong {
+          font-size: 53px;
+          line-height: 1.03774; } }
+  #wrapper.design-principles nav {
+    padding-bottom: 3px; }
+    #wrapper.design-principles nav li {
+      list-style: none; }
+    #wrapper.design-principles nav a {
+      text-decoration: none; }
+      #wrapper.design-principles nav a:hover .caption, #wrapper.design-principles nav a:focus .caption, #wrapper.design-principles nav a:active .caption {
+        text-decoration: underline; }
+    #wrapper.design-principles nav .caption {
+      font-weight: bold; }
+    #wrapper.design-principles nav .icon {
+      position: relative;
+      float: left;
+      margin-left: -68px;
+      width: 51px;
+      text-align: right;
+      color: #6f777b;
+      white-space: nowrap; }
+      @media (max-width: 640px) {
+        #wrapper.design-principles nav .icon {
+          margin-left: 0;
+          width: 34px;
+          text-align: left; } }
+    #wrapper.design-principles nav .current .icon {
+      color: black; }
+  #wrapper.design-principles h2 {
+    font-family: "nta", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: none;
+    font-weight: bold; }
+    @media (max-width: 640px) {
+      #wrapper.design-principles h2 {
+        font-size: 20px;
+        line-height: 1.2; } }
+  #wrapper.design-principles h3.heading-level-3 {
+    font-weight: bold; }
+  #wrapper.design-principles h2, #wrapper.design-principles p, #wrapper.design-principles ol, #wrapper.design-principles ul {
+    margin: 20px 0; }
+  #wrapper.design-principles .figure-mask {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    left: -5000%; }
+  #wrapper.design-principles .principles .principle {
+    position: relative;
+    list-style: none;
+    padding-bottom: 30px; }
+  #wrapper.design-principles .principles h1 {
+    margin-top: 80px;
+    margin-bottom: -1px;
+    font-weight: bold;
+    color: #df3034; }
+    @media (max-width: 640px) {
+      #wrapper.design-principles .principles h1 {
+        margin-top: 35px; } }
+    #wrapper.design-principles .principles h1:before {
+      position: relative;
+      float: left;
+      margin-left: -68px;
+      width: 51px;
+      text-align: right;
+      font-weight: normal; }
+      @media (max-width: 640px) {
+        #wrapper.design-principles .principles h1:before {
+          margin-left: 0;
+          width: auto;
+          min-width: 17px;
+          padding-right: 17px;
+          text-align: left; } }
+    #wrapper.design-principles .principles h1#first:before {
+      content: "1"; }
+    #wrapper.design-principles .principles h1#second:before {
+      content: "2"; }
+    #wrapper.design-principles .principles h1#third:before {
+      content: "3"; }
+    #wrapper.design-principles .principles h1#fourth:before {
+      content: "4"; }
+    #wrapper.design-principles .principles h1#fifth:before {
+      content: "5"; }
+    #wrapper.design-principles .principles h1#sixth:before {
+      content: "6"; }
+    #wrapper.design-principles .principles h1#seventh:before {
+      content: "7"; }
+    #wrapper.design-principles .principles h1#eighth:before {
+      content: "8"; }
+    #wrapper.design-principles .principles h1#ninth:before {
+      content: "9"; }
+    #wrapper.design-principles .principles h1#tenth:before {
+      content: "10"; }
+  #wrapper.design-principles .principles h1#first + h2 {
+    font-weight: normal;
+    color: #df3034; }
+  #wrapper.design-principles .principles h1 + .example img:first-child {
+    margin: 20px 20px 20px 0;
+    float: left;
+    display: inline;
+    max-width: 50%; }
+  #wrapper.design-principles .principles .outline p {
+    font-family: "nta", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: none;
+    margin-bottom: -1px; }
+    @media (max-width: 640px) {
+      #wrapper.design-principles .principles .outline p {
+        font-size: 20px;
+        line-height: 1.2; } }
+  #wrapper.design-principles .examples, #wrapper.design-principles .content-types {
+    clear: both; }
+    #wrapper.design-principles .examples h2, #wrapper.design-principles .content-types h2 {
+      margin: 25px 0 0;
+      text-decoration: none;
+      padding: 10px 0; }
+      #wrapper.design-principles .examples h2 a, #wrapper.design-principles .content-types h2 a {
+        display: block;
+        color: inherit;
+        text-decoration: none; }
+    #wrapper.design-principles .examples .content, #wrapper.design-principles .content-types .content {
+      position: relative;
+      clear: both;
+      overflow: hidden; }
+    #wrapper.design-principles .examples article, #wrapper.design-principles .content-types article {
+      margin-top: 1px;
+      padding: 15px 10px 10px;
+      overflow: hidden;
+      background: #dee0e2;
+      clear: both; }
+      #wrapper.design-principles .examples article.design .example, #wrapper.design-principles .examples article.comparison .example, #wrapper.design-principles .content-types article.design .example, #wrapper.design-principles .content-types article.comparison .example {
+        float: left;
+        display: inline;
+        width: 66.666%; }
+      #wrapper.design-principles .examples article.design .caption, #wrapper.design-principles .examples article.comparison .caption, #wrapper.design-principles .content-types article.design .caption, #wrapper.design-principles .content-types article.comparison .caption {
+        float: left;
+        display: inline;
+        width: 33.333%; }
+        #wrapper.design-principles .examples article.design .caption p, #wrapper.design-principles .examples article.comparison .caption p, #wrapper.design-principles .content-types article.design .caption p, #wrapper.design-principles .content-types article.comparison .caption p {
+          margin-top: 0;
+          padding-left: 10px; }
+      #wrapper.design-principles .examples article.process .example, #wrapper.design-principles .examples article.worked-example .example, #wrapper.design-principles .content-types article.process .example, #wrapper.design-principles .content-types article.worked-example .example {
+        float: left;
+        display: inline;
+        width: 33.333%; }
+      #wrapper.design-principles .examples article.process .caption, #wrapper.design-principles .examples article.worked-example .caption, #wrapper.design-principles .content-types article.process .caption, #wrapper.design-principles .content-types article.worked-example .caption {
+        float: left;
+        display: inline;
+        width: 66.666%; }
+        #wrapper.design-principles .examples article.process .caption p, #wrapper.design-principles .examples article.worked-example .caption p, #wrapper.design-principles .content-types article.process .caption p, #wrapper.design-principles .content-types article.worked-example .caption p {
+          margin-top: 0;
+          padding-left: 10px; }
+      #wrapper.design-principles .examples article img, #wrapper.design-principles .content-types article img {
+        display: block;
+        width: 100%;
+        height: auto; }
+    #wrapper.design-principles .examples h1, #wrapper.design-principles .content-types h1 {
+      max-width: 66.666%;
+      margin: 0 0 15px;
+      font-family: "nta", Arial, sans-serif;
+      font-size: 24px;
+      line-height: 1.25;
+      font-weight: 400;
+      text-transform: none;
+      font-weight: bold;
+      color: black; }
+      @media (max-width: 640px) {
+        #wrapper.design-principles .examples h1, #wrapper.design-principles .content-types h1 {
+          font-size: 20px;
+          line-height: 1.2; } }
+    #wrapper.design-principles .examples .status, #wrapper.design-principles .content-types .status {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 0;
+      padding: 11px 15px 10px;
+      font-family: "nta", Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.42857;
+      font-weight: 400;
+      text-transform: none;
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 0.2em; }
+      @media (max-width: 640px) {
+        #wrapper.design-principles .examples .status, #wrapper.design-principles .content-types .status {
+          font-size: 12px;
+          line-height: 1.25; } }
+    #wrapper.design-principles .examples .tried, #wrapper.design-principles .content-types .tried {
+      background: #7F9A48; }
+    #wrapper.design-principles .examples .experimental, #wrapper.design-principles .content-types .experimental {
+      background: #d33883; }
+    #wrapper.design-principles .examples .changeable, #wrapper.design-principles .content-types .changeable {
+      background: #F47E31; }
+    #wrapper.design-principles .examples p, #wrapper.design-principles .content-types p {
+      font-family: "nta", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.25;
+      font-weight: 300;
+      text-transform: none; }
+      @media (max-width: 640px) {
+        #wrapper.design-principles .examples p, #wrapper.design-principles .content-types p {
+          font-size: 14px;
+          line-height: 1.14286; } }
+    #wrapper.design-principles .examples pre, #wrapper.design-principles .content-types pre {
+      border-left: 2px solid #6f777b;
+      padding-left: 10px; }
+    #wrapper.design-principles .examples code, #wrapper.design-principles .content-types code {
+      font-family: 'Andale Mono', monospace;
+      font-size: 80%;
+      line-height: 1; }
+  #wrapper.design-principles .content-types > a > .caption {
+    background: url("../images/icon-caret-right.png") no-repeat left center;
+    padding: 0px 50px 0px 10px; }
+  #wrapper.design-principles .content-types .content {
+    left: 20px;
+    top: -10px; }
+  #wrapper.design-principles .alpha-feedback {
+    position: relative;
+    margin-top: 80px;
+    padding: 10px;
+    color: white;
+    background: #df3034; }
+    #wrapper.design-principles .alpha-feedback h1 {
+      margin: 0 0 5px;
+      font-family: "nta", Arial, sans-serif;
+      font-size: 36px;
+      line-height: 1.11111;
+      font-weight: 400;
+      text-transform: none;
+      font-weight: bold;
+      color: white; }
+      @media (max-width: 640px) {
+        #wrapper.design-principles .alpha-feedback h1 {
+          font-size: 24px;
+          line-height: 1.04167; } }
+    #wrapper.design-principles .alpha-feedback p {
+      margin: 0; }
+    #wrapper.design-principles .alpha-feedback a {
+      text-decoration: none;
+      font-weight: bold; }
+      #wrapper.design-principles .alpha-feedback a:hover, #wrapper.design-principles .alpha-feedback a:focus {
+        color: inherit;
+        text-decoration: underline; }
+      #wrapper.design-principles .alpha-feedback a:active {
+        color: black; }
+  @media (max-width: 640px) {
+    #wrapper.design-principles.styleguide nav .icon {
+      width: 4em; } }
+  #wrapper.design-principles.styleguide .principles h2 {
+    margin-top: 50px; }
+  #wrapper.design-principles.styleguide .principles ul, #wrapper.design-principles.styleguide .principles ol {
+    padding-left: 25px; }
+    #wrapper.design-principles.styleguide .principles ul li, #wrapper.design-principles.styleguide .principles ol li {
+      padding-left: 5px;
+      margin-bottom: 5px; }
+  #wrapper.design-principles.styleguide .principles article section h3 {
+    font-weight: 700; }
+  #wrapper.design-principles.styleguide a.feed {
+    background: url("../images/feed-icon-black.png") 0 40% no-repeat;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 0 10px 0 20px;
+    text-decoration: none; }
+  #wrapper.design-principles table {
+    margin: 20px 0;
+    font-family: "nta", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    font-weight: 400;
+    text-transform: none; }
+    @media (max-width: 640px) {
+      #wrapper.design-principles table {
+        font-size: 12px;
+        line-height: 1.25; } }
+    #wrapper.design-principles table td, #wrapper.design-principles table th {
+      padding: 10px 15px; }
+      #wrapper.design-principles table td:first-child, #wrapper.design-principles table th:first-child {
+        padding-left: 0; }
+    #wrapper.design-principles table th {
+      font-weight: bold;
+      border-bottom: 4px solid #bfc1c3; }
+    #wrapper.design-principles table td {
+      border-top: 1px solid #bfc1c3; }
+    #wrapper.design-principles table h2, #wrapper.design-principles table p, #wrapper.design-principles table ol, #wrapper.design-principles table ul {
+      margin: 0; }
+  #wrapper.design-principles table.terms caption.a-z {
+    font-weight: bold;
+    text-transform: capitalize; }
+  #wrapper.design-principles table.terms td.term {
+    width: 30%; }
+  #wrapper.design-principles table.terms td.description {
+    width: 70%; }
+  #wrapper.design-principles .image-container img {
+    max-width: 100%; }
+  #wrapper.design-principles .image-description {
+    position: absolute;
+    left: -9999em; }
+
+.js-enabled #wrapper.design-principles {
+  background-image: url("../images/dropdown_arrow_open.png");
+  background-position: -5000px top;
+  background-repeat: no-repeat; }
+  .js-enabled #wrapper.design-principles .examples {
+    overflow: hidden; }
+    .js-enabled #wrapper.design-principles .examples h2 {
+      float: left;
+      display: inline;
+      margin-top: 5px;
+      padding: 0; }
+      .js-enabled #wrapper.design-principles .examples h2 a {
+        min-width: 12em;
+        padding: 10px 50px 10px 10px;
+        color: white;
+        background: #df3034 url("../images/dropdown_arrow_closed.png") no-repeat right center;
+        text-transform: lowercase; }
+        @media (max-width: 640px) {
+          .js-enabled #wrapper.design-principles .examples h2 a {
+            min-width: 8em; } }
+        .js-enabled #wrapper.design-principles .examples h2 a:before {
+          content: "Show ";
+          font-weight: normal;
+          text-transform: none; }
+    .js-enabled #wrapper.design-principles .examples #nested-nav.content {
+      display: none; }
+    .js-enabled #wrapper.design-principles .examples .content {
+      position: absolute;
+      left: -50000%;
+      height: 0; }
+      .js-enabled #wrapper.design-principles .examples .content article {
+        opacity: 0;
+        -ms-transition: opacity 0.3s ease;
+        -moz-transition: opacity 0.3s ease;
+        -o-transition: opacity 0.3s ease;
+        -webkit-transition: opacity 0.3s ease;
+        transition: opacity 0.3s ease; }
+  .js-enabled #wrapper.design-principles .open-section h2 a {
+    background-image: url("../images/dropdown_arrow_open.png"); }
+    .js-enabled #wrapper.design-principles .open-section h2 a:before {
+      content: "Hide "; }
+  .js-enabled #wrapper.design-principles .open-section .content {
+    position: relative;
+    left: 0;
+    height: auto; }
+    .js-enabled #wrapper.design-principles .open-section .content article {
+      opacity: 1; }
+  .js-enabled #wrapper.design-principles .content-types #nested-nav.content {
+    display: none; }
+  .js-enabled #wrapper.design-principles .content-types.open-section > a > .caption {
+    background: url("../images/icon-caret-down.png") no-repeat left center; }
+  .js-enabled #wrapper.design-principles .content-types.open-section #nested-nav.content {
+    display: block;
+    left: 20px;
+    top: -10px; }
+  .js-enabled #wrapper.design-principles .content-types.open-section .content {
+    position: relative;
+    height: auto; }
+    .js-enabled #wrapper.design-principles .content-types.open-section .content article {
+      opacity: 1; }

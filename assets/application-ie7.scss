@@ -1,0 +1,16 @@
+// BASE STYLESHEET FOR IE 7 COMPILER
+
+$is-ie: true;
+$ie-version: 7;
+
+@import "application.scss";
+
+#wrapper.design-principles {
+  &.styleguide {
+    .principles {
+      ol li {
+        list-style: inside;
+      }
+    }
+  }
+}
