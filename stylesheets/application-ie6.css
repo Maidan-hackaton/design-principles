@@ -151,31 +151,36 @@ html {
         #wrapper.design-principles h1 strong {
           font-size: 53px;
           line-height: 1.03774; } }
-  #wrapper.design-principles nav {
+  #wrapper.design-principles ol {
     padding-bottom: 3px; }
-    #wrapper.design-principles nav li {
-      list-style: none; }
-    #wrapper.design-principles nav a {
-      text-decoration: none; }
-      #wrapper.design-principles nav a:hover .caption, #wrapper.design-principles nav a:focus .caption, #wrapper.design-principles nav a:active .caption {
-        text-decoration: underline; }
-    #wrapper.design-principles nav .caption {
+  #wrapper.design-principles li {
+    list-style: none; }
+    #wrapper.design-principles li a {
+      text-decoration: none;
       font-weight: bold; }
-    #wrapper.design-principles nav .icon {
-      position: relative;
-      float: left;
-      margin-left: -68px;
-      width: 51px;
-      text-align: right;
-      color: #6f777b;
-      white-space: nowrap; }
-      @media (max-width: 640px) {
-        #wrapper.design-principles nav .icon {
-          margin-left: 0;
-          width: 34px;
-          text-align: left; } }
-    #wrapper.design-principles nav .current .icon {
-      color: black; }
+      #wrapper.design-principles li a:hover, #wrapper.design-principles li a:focus, #wrapper.design-principles li a:active {
+        text-decoration: underline; }
+  #wrapper.design-principles ol {
+    counter-reset: design-principles-counter; }
+  #wrapper.design-principles li:before {
+    content: counter(design-principles-counter);
+    counter-increment: design-principles-counter; }
+  #wrapper.design-principles li:before {
+    position: relative;
+    float: left;
+    margin-left: -68px;
+    width: 51px;
+    text-align: right;
+    color: #6f777b;
+    white-space: nowrap;
+    display: inline-block; }
+    @media (max-width: 640px) {
+      #wrapper.design-principles li:before {
+        margin-left: 0;
+        width: 34px;
+        text-align: left; } }
+  #wrapper.design-principles .current .icon {
+    color: black; }
   #wrapper.design-principles h2 {
     font-family: "nta", Arial, sans-serif;
     font-size: 24px;
@@ -223,26 +228,6 @@ html {
           min-width: 17px;
           padding-right: 17px;
           text-align: left; } }
-    #wrapper.design-principles .principles h1#first:before {
-      content: "1"; }
-    #wrapper.design-principles .principles h1#second:before {
-      content: "2"; }
-    #wrapper.design-principles .principles h1#third:before {
-      content: "3"; }
-    #wrapper.design-principles .principles h1#fourth:before {
-      content: "4"; }
-    #wrapper.design-principles .principles h1#fifth:before {
-      content: "5"; }
-    #wrapper.design-principles .principles h1#sixth:before {
-      content: "6"; }
-    #wrapper.design-principles .principles h1#seventh:before {
-      content: "7"; }
-    #wrapper.design-principles .principles h1#eighth:before {
-      content: "8"; }
-    #wrapper.design-principles .principles h1#ninth:before {
-      content: "9"; }
-    #wrapper.design-principles .principles h1#tenth:before {
-      content: "10"; }
   #wrapper.design-principles .principles h1#first + h2 {
     font-weight: normal;
     color: #df3034; }

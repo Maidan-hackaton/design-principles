@@ -130,48 +130,52 @@ html {
     }
   }
 
-  nav {
+  ol {
     padding-bottom: 3px;
+  }
 
-    li {
-      list-style: none;
-    }
-
+  li {
+    list-style: none;
     a {
       text-decoration: none;
-
+      font-weight: bold;
+  
       &:hover,
       &:focus,
       &:active{
-        .caption {
-          text-decoration: underline;
-        }
+        text-decoration: underline;
       }
     }
+  }
 
-    .caption {
-      font-weight: bold;
+  ol {
+    counter-reset: design-principles-counter;
+  }
+
+  li:before {
+    content: counter(design-principles-counter);
+    counter-increment: design-principles-counter;
+  }
+
+  li:before {
+    position: relative;
+    float: left;
+    margin-left: $margin*-1;
+    width: $margin*0.75;
+    text-align: right;
+    color: $grey-1;
+    white-space: nowrap;
+    display: inline-block;
+
+    @media (max-width: 640px) {
+      margin-left: 0;
+      width: $margin*0.5;
+      text-align: left;
     }
+  }
 
-    .icon {
-      position: relative;
-      float: left;
-      margin-left: $margin*-1;
-      width: $margin*0.75;
-      text-align: right;
-      color: $grey-1;
-      white-space: nowrap;
-
-      @media (max-width: 640px) {
-        margin-left: 0;
-        width: $margin*0.5;
-        text-align: left;
-      }
-    }
-
-    .current .icon {
-      color: $text-color;
-    }
+  .current .icon {
+    color: $text-color;
   }
 
   h2 {
@@ -230,45 +234,6 @@ html {
         }
       }
 
-      &#first:before {
-        content: "1";
-      }
-
-      &#second:before {
-        content: "2";
-      }
-
-      &#third:before {
-        content: "3";
-      }
-
-      &#fourth:before {
-        content: "4";
-      }
-
-      &#fifth:before {
-        content: "5";
-      }
-
-      &#sixth:before {
-        content: "6";
-      }
-
-      &#seventh:before {
-        content: "7";
-      }
-
-      &#eighth:before {
-        content: "8";
-      }
-
-      &#ninth:before {
-        content: "9";
-      }
-
-      &#tenth:before {
-        content: "10";
-      }
     }
 
     h1#first+h2 {
