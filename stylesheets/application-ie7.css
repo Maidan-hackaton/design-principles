@@ -247,6 +247,8 @@ html {
       #wrapper.design-principles .principles .outline p {
         font-size: 20px;
         line-height: 1.2; } }
+  #wrapper.design-principles img {
+    max-width: 100%; }
   #wrapper.design-principles .examples, #wrapper.design-principles .content-types {
     clear: both; }
     #wrapper.design-principles .examples h2, #wrapper.design-principles .content-types h2 {
