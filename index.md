@@ -2,6 +2,7 @@
 layout: default
 title: GDS design principles
 wrapper_class: design-principles
+ru: index_ru.html
 ---
 
 # Government Digital Service **Design Principles**
