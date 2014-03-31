@@ -9,21 +9,21 @@ wrapper_class: design-principles
 Listed below are our design principles and examples of how we’ve used them so far. These build on, and add to, our original [7 digital principles](http://www.flickr.com/photos/benterrett/7041509709/).
 
 
-1. [Start with needs\*](#first)
-2. [Do less](#second)
-3. [Design with data](#third)
-4. [Do the hard work to make it simple](#fourth)
-5. [Iterate. Then iterate again.](#fifth)
-6. [Build for inclusion](#sixth)
-7. [Understand context](#seventh)
-8. [Build digital services, not websites](#eighth)
-9. [Be consistent, not uniform](#ninth)
-10. [Make things open: it makes things better](#tenth)
+1. [Start with needs\*](#_start_with_needs)
+2. [Do less](#do_less)
+3. [Design with data](#_design_with_data)
+4. [Do the hard work to make it simple](#_do_the_hard_work_to_make_it_simple)
+5. [Iterate. Then iterate again.](#_iterate_then_iterate_again)
+6. [Build for inclusion](#_build_for_inclusion)
+7. [Understand context](#_understand_context)
+8. [Build digital services, not websites](#_build_digital_services_not_websites)
+9. [Be consistent, not uniform](#_be_consistent_not_uniform)
+10. [Make things open: it makes things better](#_make_things_open_it_makes_things_better)
 
 
 
-# <a id="first"> </a> Start with needs\*
-\*user needs not government needs
+# Start with needs\*
+### \*user needs not government needs
 
 The design process must start with identifying and thinking about real
 user needs. We should design around those — not around the way the
@@ -40,7 +40,7 @@ most value for money.
 
 ## Examples of how we start with needs.
 
-<img src="images/content/01/needs_wall.png" />
+![](images/content/01/needs_wall.png)
 
 If we start from the wrong place there’s no chance we will get
 the design right. Before we begin any project we spend a long time
@@ -49,16 +49,22 @@ a bit more about how we do that.](http://digital.cabinetoffice.gov.uk/2011/09/19
 
 ## Be clear
 
-<div class="example">
-  <img src="images/content/01/example-vat.png" />
-</div>
+![](images/content/01/example-vat.png)
 
-<a href="https://www.gov.uk/vat-rates">This VAT page</a> is a good example of a design that results from thinking about user needs. Most people will arrive at this page after a search for VAT rates. The answer most people are after is 20%, so we’ve made that the largest, clearest piece of information on the page. You can get the answer you are looking for incredibly quickly. There is more to VAT than just one rate so we’ve included this but clearly designed as secondary information. There’s a slim chance you’ve arrived at the wrong page so we have links to genuinely related items in the box on the top right.
+[This VAT page](https://www.gov.uk/vat-rates) is a good example of a design
+that results from thinking about user needs. Most people will arrive at this
+page after a search for VAT rates. The answer most people are after is 20%,
+so we’ve made that the largest, clearest piece of information on the page.
+You can get the answer you are looking for incredibly quickly. There is more
+to VAT than just one rate so we’ve included this but clearly designed
+as secondary information. There’s a slim chance you’ve arrived at the wrong
+page so we have links to genuinely related items in the box on the top right.
 
-The page is simple and clear but contains all the different information you might need.
+The page is simple and clear but contains all the different information
+you might need.
 
 
-# <a id="second"> </a> Do less 
+# Do less
 
 Government should only do what only government can do. If someone else
 is doing it — link to it. If we can provide resources
@@ -73,13 +79,15 @@ where they’ll do the most good.
 
 ## An example of how we are doing less
 
-<img src="images/content/02/keeping-bees.jpg" />
+![](images/content/02/keeping-bees.jpg)
 
 Lots of page designs fail because the focus of the page isn’t clear. Don’t try to cram everything on to one page. By trying to do less and deciding what’s the most important thing on the page before you start designing you’ll end up with simpler, clearer designs.
 
-Remember that government should only do what only government can do, so while it’s right we should provide information about VAT it’s not necessary for us to provide information about <a href="http://webarchive.nationalarchives.gov.uk/20121015000000/www.direct.gov.uk/en/Environmentandgreenerliving/Smallholders/DG_179478">keeping bees</a>.
+Remember that government should only do what only government can do,
+so while it’s right we should provide information about VAT it’s not
+necessary for us to provide information about [keeping bees](http://webarchive.nationalarchives.gov.uk/20121015000000/www.direct.gov.uk/en/Environmentandgreenerliving/Smallholders/DG_179478)
 
-# <a id="third"> </a> Design with data
+# Design with data
 
 Normally, we’re not starting from scratch — users are already using
 our services. This means we can learn from real world behaviour. We
@@ -97,40 +105,58 @@ invented.
 
 Desire paths are a great way to understand what your user is trying to do.
 
-You can read a great explanation of <a href="http://en.wikipedia.org/wiki/Desire_path">desire paths on wikipedia</a> as well as see some <a href="http://www.flickr.com/groups/desire_paths/pool/">examples in this flickr pool</a>.
+You can read a great explanation of
+(desire paths on wikipedia)[http://en.wikipedia.org/wiki/Desire_path]
+ as well as see some 
+[examples in this flickr pool.](http://www.flickr.com/groups/desire_paths/pool/)
 
 ## A/B testing
 
-<img src="images/content/03/ab-test.jpg" />
+![](images/content/03/ab-test.jpg)
 
-We’re using <a href="http://en.wikipedia.org/wiki/A/B_testing">A/B testing</a> to see how colour changes can affect user behaviour.
+We’re using (A/B testing)[http://en.wikipedia.org/wiki/A/B_testing]
+to see how colour changes can affect user behaviour.
 
-We’ll write more about what we are measuring around user behaviour soon. There are lots of ways to approach this: to give one example <a href="http://www.google.com/analytics/">Google Analytics</a> is a popular tool that can help assess user data.
+We’ll write more about what we are measuring around user behaviour soon.
+There are lots of ways to approach this: to give one example
+[Google Analytics](http://www.google.com/analytics/)
+is a popular tool that can help assess user data.
 
-# <a id="fourth"> </a> Do the hard work to make it simple
+# Do the hard work to make it simple
 
 Making something look simple is easy; making something simple to use
 is much harder — especially when the underlying systems are complex —
 but that’s what we should be doing.
          
 With great power comes great responsibility — very often people have
-no choice but to use our services. If we don’t work hard to make them simple and
-usable we’re abusing that power, and wasting people’s time.
+no choice but to use our services. If we don’t work hard to make them
+simple and usable we’re abusing that power, and wasting people’s time.
          
 ## An example of where we have done the hard work to make something simple
 
-<img src="images/content/04/maternity-pay_sml.png" alt="A screen shot of a smart answer" />
+![A screen shot of a smart answer](images/content/04/maternity-pay_sml.png)
 
-You shouldn’t have to understand how government works to be able to interact with it. Government and the services it provides are often complicated, so we should hide complexity where possible.
+You shouldn’t have to understand how government works to be able to interact
+with it. Government and the services it provides are often complicated,
+so we should hide complexity where possible.
 
-Our <a href="http://digital.cabinetoffice.gov.uk/2012/02/16/smart-answers-are-smart/">Smart Answer</a> format is a good example of this. Both <a href="https://www.gov.uk/calculate-married-couples-allowance">Married Couple’s Allowance</a> and <a href="https://www.gov.uk/maternity-benefits">Maternity Pay Entitlement</a> are good examples of how we have taken something complicated and made the interaction simple for the user. <a href="https://github.com/alphagov/smart-answers">The code for smart answers is available on GitHub.</a>
+Our [Smart Answer](http://digital.cabinetoffice.gov.uk/2012/02/16/smart-answers-are-smart/)
+format is a good example of this. Both [Married Couple’s Allowance](https://www.gov.uk/calculate-married-couples-allowance)
+and [Maternity Pay Entitlement](https://www.gov.uk/maternity-benefits)
+are good examples of how we have taken something complicated and
+made the interaction simple for the user.
+[The code for smart answers is available on GitHub.](https://github.com/alphagov/smart-answers)
 
-   
-# <a id="fifth"> </a> Iterate. Then iterate again.
+
+# Iterate. Then iterate again.
        
 The best way to build effective services is to start small and iterate
-wildly. Release <a href="http://en.wikipedia.org/wiki/Minimum_viable_product">Minimum Viable Products</a> early, test them with real
-users, move from <a href="http://en.wikipedia.org/wiki/Software_release_life_cycle#Alpha">Alpha</a> to <a href="http://en.wikipedia.org/wiki/Software_release_life_cycle#Beta">Beta</a> to Launch adding features and refinements based on feedback from real users.
+wildly. Release 
+[Minimum Viable Products](http://en.wikipedia.org/wiki/Minimum_viable_product)
+early, test them with real users, move
+from (Alpha)[http://en.wikipedia.org/wiki/Software_release_life_cycle#Alpha]
+to [Beta]http://en.wikipedia.org/wiki/Software_release_life_cycle#Beta]
+to Launch adding features and refinements based on feedback from real users.
 
 Iteration reduces risk. It makes big failures unlikely and turns small
 failures into lessons. This avoids the 200 page spec document
@@ -143,18 +169,27 @@ Once you’re happy with what some code is doing, make sure it is ‘clean’ an
 
 ## Release and keep improving
 
-<img src="images/content/05/early_designs.jpg" alt="A selection of design iterations from GOV.UK" />
+![A selection of design iterations from GOV.UK](images/content/05/early_designs.jpg)
 
-Release often and release early.  A ‘launch’ is not the end of the project, but an opportunity to test the product in the wild, and get feedback quickly.  Act on the feedback and continuously improve the product.  You can read some examples of this on the blog, <a href="http://digital.cabinetoffice.gov.uk/2012/02/01/govuk-beta-day1/">day 1 iterations</a> and further iterations the <a href="http://digital.cabinetoffice.gov.uk/2012/02/02/day-2-of-gov-uk-more-iteration/">following week</a> made on the GOV.UK beta, and the <a href="http://digital.cabinetoffice.gov.uk/2012/03/13/inside-government-how-busy-the-busy-bees-have-been/">INSIDE GOVERNMENT first week iteration</a>.
+Release often and release early.  A ‘launch’ is not the end of the project,
+but an opportunity to test the product in the wild, and get feedback quickly.
+Act on the feedback and continuously improve the product.
+You can read some examples of this on the blog, [day 1 iterations](http://digital.cabinetoffice.gov.uk/2012/02/01/govuk-beta-day1/) and further iterations
+the [following week](http://digital.cabinetoffice.gov.uk/2012/02/02/day-2-of-gov-uk-more-iteration/)
+made on the GOV.UK beta, and the
+[INSIDE GOVERNMENT first week iteration.](http://digital.cabinetoffice.gov.uk/2012/03/13/inside-government-how-busy-the-busy-bees-have-been/)
 
 ## Alpha. Beta.
 
-<img src="images/content/05/iterate.png" alt="A selection of design iterations from GOV.UK" />
+![A selection of design iterations from GOV.UK](images/content/05/iterate.png)
 
-We released an <a href="http://alpha.gov.uk/">alpha version of GOV.UK</a> last year and we released the <a href="https://www.gov.uk/">beta version</a> in January. Other people in government are starting to use this approach: <a href="http://shropshire.gov.uk/projectwip/">Shropshire WIP</a> and <a href="http://www.directscot.org/">DirectScot</a> being good examples.
+We released an [alpha version of GOV.UK](http://alpha.gov.uk/)
+last year and we released the [beta version](https://www.gov.uk/)
+in January. Other people in government are starting to use this approach:
+[Shropshire WIP](http://shropshire.gov.uk/projectwip/) and [DirectScot](http://www.directscot.org/) being good examples.
 
-   
-# <a id="sixth"> </a> Build for inclusion
+
+# Build for inclusion
        
 Accessible design is good design. We should build a product that’s as
 inclusive, legible and readable as possible. If we have to sacrifice
@@ -169,9 +204,10 @@ people at the beginning we should make a better site for everyone.
          
 ## Some examples of how we have been building for inclusion
 
-<img src="images/content/06/exampleoftable.png" alt="An image showing an example of high contrasting colours" />
+![An image showing an example of high contrasting colours](images/content/06/exampleoftable.png)
 
-This table shows an example of using highly contrasting colours, which makes the information easier to read.
+This table shows an example of using highly contrasting colours, which makes
+the information easier to read.
 
 
 ## ARIA landmark roles
@@ -194,8 +230,9 @@ This table shows an example of using highly contrasting colours, which makes the
 
 ARIA landmark roles help people who use screen readers and other assistive
 technologies understand the purpose of different areas of a page. This video
-demonstrates how someone using a screen reader benefits from ARIA landmark roles: <a href="http://www.nomensa.com/blog/2011/how-aria-landmark-roles-help-screen-reader-users/">http://www.nomensa.com/blog/2011/how-aria-landmark-roles-help-screen-reader-
-users/</a>
+demonstrates how someone using a screen reader benefits from ARIA landmark
+roles: 
+[How ARIA landmark roles help screen reader users](http://www.nomensa.com/blog/2011/how-aria-landmark-roles-help-screen-reader-users/)
 
 ## Form fields and labels
 
@@ -217,13 +254,13 @@ No&lt;/label&gt;
 </code></pre>
                 </div>
 
-Form labels help everyone enter the right information. Associating the form label and
-form field within the HTML means that people using screen readers also have access
-to the label.
+Form labels help everyone enter the right information. Associating the
+form label and form field within the HTML means that people using screen
+readers also have access to the label.
 
-The position of the label text is important. For checkboxes and radio buttons the label
-is best positioned to the right of the field. For all other field types the label is best
-positioned to the left.
+The position of the label text is important. For checkboxes and radio buttons
+the label is best positioned to the right of the field. For all other field
+types the label is best positioned to the left.
 
 ## Skip links and hidden content
 
@@ -265,7 +302,8 @@ It’s also a good idea to avoid references to the way the link will be activate
 People on touch screen devices won’t "Click here" for example,
 and neither will people unable to use a mouse for accessibility reasons.
 
-# <a id="seventh"> </a> Understand context
+
+# Understand context
        
 We’re not designing for a screen, we’re designing for people. We need
 to think hard about the context in which they’re using our services.
@@ -280,7 +318,7 @@ relevant to people’s lives.
          
 ## Examples of how we have been considering context
                   
-<img src="images/content/07/screens.png" alt="A photo showing a selection of devices" />
+![A photo showing a selection of devices](images/content/07/screens.png)
 
 Your service could be accessed from almost anywhere on a wide variety of devices
 in all sorts of different environments. Consider how the usage might change for
@@ -288,8 +326,9 @@ each of these. For instance, a low-cost, low-power shared PC in a public library
 or a smart phone used whilst walking down the street.
 
 Remember we are designing information, not pushing pixels around a screen.
-   
-# <a id="eighth"> </a> Build digital services, not websites
+
+
+# Build digital services, not websites
        
 Our service doesn’t begin and end at our website. It might start with
 a search engine and end at the post office. We need to design for
@@ -307,7 +346,7 @@ One example of this is the
 [WordPress plugin that Saul Cozens](http://saulcozens.co.uk/pages/wordpressgovuk)
 made to "reproduce content from GOV.UK on any Wordpress post or page."
 
-# <a id="ninth"> </a> Be consistent, not uniform
+# Be consistent, not uniform
        
 Wherever possible we should use the same language and the same design
 patterns — this helps people get familiar with our services. But, when
@@ -324,7 +363,7 @@ we move into new digital spaces.
 
 ## Examples of our design work being consistent but not uniform
 
-<img src="images/content/09/family.jpg" alt="Screenshots of the GOV.UK and INSIDE GOVERNMENT betas" />
+![Screenshots of the GOV.UK and INSIDE GOVERNMENT betas](images/content/09/family.jpg)
 
 So far we have released beta versions of GOV.UK and INSIDE GOVERNMENT.
 Comparing page designs from both of these projects gives you
@@ -333,75 +372,87 @@ These designs feel like they come from the same family,
 but they are different depending on the different requirements
 of the page.
        
-# <a id="tenth"> </a> Make things open: it makes things better
-       
+# Make things open: it makes things better
+
 We should share what we’re doing whenever we can. With colleagues,
 with users, with the world. Share code, share designs, share ideas,
 share intentions, share failures. The more eyes there are on a service
 the better it gets — howlers get spotted, better alternatives get
 pointed out, the bar gets raised.
-         
+
 Partly because much of what we’re doing is only possible because of
 open source code and the generosity of the web design community. So we
 should pay that back. But mostly because more openness makes for
 better services — better understood and better scrutinised. If we give
 away our code, we’ll be repaid in better code. That’s why we’re giving
 away all this...
-         
+
 ## Design
 
-<img src="images/content/design/page_example_annotated.png" alt="A screen shot of a GOV.UK page, with annotations" />
+![A screen shot of a GOV.UK page, with annotations](images/content/design/page_example_annotated.png)
 
-This is an example from the <a href="https://www.gov.uk/">GOV.UK beta</a> that illustrates many of these design principles in action.
+This is an example from the [GOV.UK beta](https://www.gov.uk/)
+that illustrates many of these design principles in action.
 
 ## Colour palette
 
-<img src="images/content/design/colour_palette.png" alt="A screenshot of the colour palette" />
+![A screenshot of the colour palette](images/content/design/colour_palette.png)
 
-These are the colours we’ve used for <a href="https://www.gov.uk/">GOV.UK</a>.
+These are the colours we’ve used for [GOV.UK](https://www.gov.uk/).
 It’s a deliberately broad palette as the scope for the site is so large.
 We use the paler colours the most and the stronger colours
 when we want to draw attention to something.
 
-You can <a href="downloads/betacolours.ase">download this colour palette as an Adobe Swatch Exchange file</a>, then you can import them straight into Photoshop or Illustrator
+You can [download this colour palette as an Adobe Swatch Exchange file](downloads/betacolours.ase), then you can import them straight
+into Photoshop or Illustrator.
 
-You can also <a href="downloads/betacolours.pdf">download a pdf of the colour palette</a>, so you can copy and paste the hex values.
+You can also [download a pdf of the colour palette](downloads/betacolours.pdf),
+so you can copy and paste the hex values.
 
 ## Typography
 
-<img src="images/content/10/type_styles.png" alt="A screenshot of typography examples" class="full-width" />
+![A screenshot of typography examples](images/content/10/type_styles.png)
 
-Typography is extremely important in any design. It’s a key factor in legibility. We have more control over web typography than ever before and we should ensure our designs are clear and easy to read.
+Typography is extremely important in any design. It’s a key factor
+in legibility. We have more control over web typography than ever before
+and we should ensure our designs are clear and easy to read.
 
 Over the next few months we will be testing different typographic designs.
 
-Currently we’re using <a href="http://en.wikipedia.org/wiki/Gill_Sans">Gill Sans</a> for headlines and section headings. We’re using it as ‘web font’, which isn’t without issues so we’re using it sparingly and carefully. It adds character and, spaced properly, feels British and modern.
+Currently we’re using [Gill Sans](http://en.wikipedia.org/wiki/Gill_Sans)
+for headlines and section headings. We’re using it as ‘web font’,
+which isn’t without issues so we’re using it sparingly and carefully.
+It adds character and, spaced properly, feels British and modern.
 
 We’re using Georgia for body text. That’s text that you would actually read, as opposed to glance at, or as used in highlights or warnings.
 
-It was also <a href="http://en.wikipedia.org/wiki/Georgia_(typeface)">created by a British typographer</a>
+It was also [created by a British typographer](http://en.wikipedia.org/wiki/Georgia_(typeface)).
 
-For pretty much everything else we’re using Helvetica, where people have it installed, or Arial.
+For pretty much everything else we’re using Helvetica, where people have it
+installed, or Arial.
 
 The full list of type styles we’ve used is illustrated here.
 
 ## Icons
 
-<img src="images/content/design/small_icons.png" alt="A screenshot of some small icons" />
+![A screenshot of some small icons](images/content/design/small_icons.png)
 
-Here are the icons we’ve used on <a href="https://www.gov.uk/">GOV.UK</a>.
+Here are the icons we’ve used on [GOV.UK](https://www.gov.uk/).
 
 ## Collaborative code
 
-Tools like <a href="http://www.github.com">Github</a> are useful because people can make ‘<a href="http://help.github.com/send-pull-requests/">pull requests</a>’ to help you improve your code. Find out more in our blog post — <a href="http://digital.cabinetoffice.gov.uk/2012/02/02/gov-uk-truly-open-platform/">GOV.UK - a truly open and collaborative platform</a>
+Tools like [Github](http://www.github.com) are useful because people
+can make ‘[pull requests](http://help.github.com/send-pull-requests/)’
+to help you improve your code. Find out more in our blog post —
+[GOV.UK - a truly open and collaborative platform](http://digital.cabinetoffice.gov.uk/2012/02/02/gov-uk-truly-open-platform/).
 
 ## Content principles
 
-Content is king. Our content design decisions, <a href="/design-principles/style-guide">style and tone are explained here</a>.
+Content is king. Our content design decisions, [style and tone are explained here](/design-principles/style-guide).
 
 ## Transactions
 
-<img src="images/content/10/transaction-graph.jpg" alt="A photo of some early-stage transaction thinking" />
+![A photo of some early-stage transaction thinking](images/content/10/transaction-graph.jpg)
 
 What is a transaction?
 
@@ -409,13 +460,13 @@ At the end of a transaction some kind of action has been performed (above and be
 
 ## More detail coming soon
 
-<img src="images/content/10/transaction-inputs.jpg" alt="A photo of some early-stage transaction thinking" />
+![A photo of some early-stage transaction thinking](images/content/10/transaction-inputs.jpg)
 
 We’re currently working on a broad range of transactions to create a pick’n’mix of consistent design patterns which we can choose from for use in a number of scenarios.
 
 ## Some things we’ve banned
 
-<img src="images/content/design/banned_big.jpg" alt="A photograph of some examples of banned design metaphors" class="full-width" />
+![A photograph of some examples of banned design metaphors](images/content/design/banned_big.jpg)
 
 We should be simple and clear in all our communications. Visual
 metaphors which are overused tend to hinder communication rather than
@@ -424,6 +475,8 @@ chameleons and butterflies are all banned.
 
 # Feedback
 
-This is an alpha release of the principles and we would like your feedback. Is there anything you think we should add that would make these principles more helpful? You can email your feedback to
-    <a href="mailto:govuk-feedback@digital.cabinet-office.gov.uk">govuk-feedback@digital.cabinet-office.gov.uk</a>.
+This is an alpha release of the principles and we would like your feedback.
+Is there anything you think we should add that would make these principles
+more helpful? You can email your feedback to
+[govuk-feedback@digital.cabinet-office.gov.uk](mailto:govuk-feedback@digital.cabinet-office.gov.uk).
 
