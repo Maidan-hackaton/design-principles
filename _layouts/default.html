@@ -13,8 +13,9 @@
   </head>
   <body class="js-enabled">
     <div id="wrapper" class="{{page.wrapper_class}}">
+      {%if page.uk %}<a href="{{ page.uk }}">Українська</a>{%else%}Українська{% endif %}
       {%if page.ru %}<a href="{{ page.ru }}">Русский</a>{%else%}Русский{% endif %}
-      {%if page.en %}<a href="{{ page.en }}">Английский</a>{%else%}Английский{% endif %}
+      {%if page.en %}<a href="{{ page.en }}">English</a>{%else%}English{% endif %}
       {{ content }}
     </div>
   </body>
