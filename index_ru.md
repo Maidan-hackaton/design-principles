@@ -3,6 +3,7 @@ layout: default
 title: Принципы проектирования британских цифровых услуг правительства
 wrapper_class: design-principles
 en: index.html
+uk: index_ua.html
 ---
 
 # **Принципы проектирования** британских цифровых услуг правительства
