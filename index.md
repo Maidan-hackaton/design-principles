@@ -6,7 +6,7 @@ ru: index_ru.html
 uk: index_ua.html
 ---
 
-# Government Digital Service **Design Principles**
+# Government Digital Service **Design Principles** ([original](https://www.gov.uk/guidance/government-design-principles))
 
 Listed below are our design principles and examples of how we’ve used them so far. These build on, and add to, our original [7 digital principles](http://www.flickr.com/photos/benterrett/7041509709/).
 
